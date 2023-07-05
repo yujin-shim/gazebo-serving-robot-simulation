@@ -32,7 +32,9 @@
 # Running
 roslaunch final_project final_world_nav.launch
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch
-rosrun final_project waypoint_yj.py## Result
+rosrun final_project waypoint_yj.py
+
+## Result
 
 ![final_porject_demo](https://github.com/yujin-shim/gazebo-serving-robot-simulation/assets/108443602/fef49ab4-29b0-4375-9875-c8b0192fad2a)
 
