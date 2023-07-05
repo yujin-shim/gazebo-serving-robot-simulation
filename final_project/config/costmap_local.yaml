@@ -1,0 +1,6 @@
+global_frame: odom # costmap이 작동할 global frame
+rolling_window: true # costmap의 rolling window 버전을 사용할지의 여부
+
+plugins:
+  - {name: obstacles_laser,           type: "costmap_2d::ObstacleLayer"}
+  - {name: inflation,                 type: "costmap_2d::InflationLayer"}

@@ -1,0 +1,35 @@
+<launch>
+  <arg name="x" default="0.0"/>
+  <arg name="y" default="0.0"/>
+  <arg name="z" default="0.0"/>
+
+  <!-- open world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find final_project)/world/costa_coffee_mod.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <!-- put turtlebot into world -->
+  <include file="$(find turtlebot3_gazebo)/launch/put_robot_in_world.launch">
+      <arg name="x" value="$(arg x)" />
+      <arg name="y" value="$(arg y)" />
+      <arg name="z" value="$(arg z)" />
+  </include>
+
+  <!-- setting tf from map to odom -->
+  <node pkg="tf" type="static_transform_publisher" name="map_to_odom_publisher"
+  args="0 0 0 0 0 0 map odom 30" />
+
+  <!-- serving static map -->
+  <node pkg="map_server" type="map_server" name="map_server" args="$(find final_project)/map/final_map.yaml"/>
+
+  <!-- launch acml for localization -->
+  <include file="$(find final_project)/launch/amcl.launch" />
+
+  <!-- launch rviz -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find final_project)/rviz/final.rviz"/>
+</launch>
