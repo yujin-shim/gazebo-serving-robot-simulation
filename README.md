@@ -28,10 +28,6 @@
 ![Screenshot from 2023-07-05 17-56-02](https://github.com/yujin-shim/gazebo-serving-robot-simulation/assets/108443602/598b1b4f-6378-49bb-9cbf-8787b80c8679)
 
 
-# Environment
-![image](https://github.com/yujin-shim/gazebo-serving-robot-simulation/assets/108443602/1e836991-359c-4823-a813-7b2c6905fde8)
-
-
 ## Result
 
 ![final_porject_demo](https://github.com/yujin-shim/gazebo-serving-robot-simulation/assets/108443602/fef49ab4-29b0-4375-9875-c8b0192fad2a)
