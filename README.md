@@ -1,4 +1,4 @@
-![image](https://github.com/yujin-shim/gazebo-serving-robot-simulation/assets/108443602/413f3e80-308e-466b-abd8-f20bcd88cde0)# gazebo-serving-robot-simulation
+# Gazebo - Serving robot simulation
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyujin-shim%2Fgazebo-serving-robot-simulation&count_bg=%23FFD89C&title_bg=%23A2CDB0&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
