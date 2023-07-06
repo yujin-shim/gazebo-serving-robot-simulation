@@ -1,0 +1,7 @@
+# CMake generated Testfile for 
+# Source directory: /home/yujin/final_project_ws/src/final_project_v2
+# Build directory: /home/yujin/final_project_ws/build/final_project_v2
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("gtest")

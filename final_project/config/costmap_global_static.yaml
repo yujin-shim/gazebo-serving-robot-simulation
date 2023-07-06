@@ -1,6 +1,0 @@
-global_frame: map # costmap이 작동할 global frame
-rolling_window: false # costmap의 rolling window 버전을 사용할지의 여부
-
-plugins:
-  - {name: static,                  type: "costmap_2d::StaticLayer"}
-  - {name: inflation,               type: "costmap_2d::InflationLayer"}
