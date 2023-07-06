@@ -34,6 +34,9 @@ roslaunch final_project_v2 start_follow_waypoints.launch
 
 ## Result
 
+### gif
 ![final_porject_demo](https://github.com/yujin-shim/gazebo-serving-robot-simulation/assets/108443602/fef49ab4-29b0-4375-9875-c8b0192fad2a)
-[![Gazebo simulation](http://img.youtube.com/vi/Gd7UHNoDKlw/0.jpg)](https://youtu.be/Gd7UHNoDKlw?t=0s) 
+
+### youtube-link
+[![Gazebo simulation](http://img.youtube.com/vi/Gd7UHNoDKlw/sddefault.jpg)](https://youtu.be/Gd7UHNoDKlw?t=0s) 
 
