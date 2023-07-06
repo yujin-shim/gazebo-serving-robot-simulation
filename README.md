@@ -30,9 +30,8 @@
 
 
 # Running
-roslaunch final_project final_world_nav.launch    
-roslaunch turtlebot3_navigation turtlebot3_navigation.launch    
-rosrun final_project waypoint_yj.py    
+roslaunch final_project_v2 final_world_jp.launch    
+roslaunch final_project_v2 start_follow_waypoints.launch    
 
 ## Result
 
