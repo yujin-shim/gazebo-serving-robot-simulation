@@ -47,6 +47,12 @@ roslaunch final_project_v2 start_follow_waypoints.launch
 ---
 
 ## Details
-### Local map parameters
+### Local map parameters  
+While a larger local costmap can provide more information about the environment and potentially improve path planning, it also comes with some drawbacks.
+As the local costmap increases in size, there is a possibility of the sensor capturing noisy data or mistakenly recognizing obstacles that are located farther away.
 
+- width & height : 5
+  ![param5](https://github.com/yujin-shim/gazebo-serving-robot-simulation/assets/108443602/9cdedd4a-cd89-4a94-b28d-4af3bdc077fe)
 
+- width & height : 1.5
+  ![param1 5](https://github.com/yujin-shim/gazebo-serving-robot-simulation/assets/108443602/5a39c302-2a2f-4ca4-9d1d-20eb34052001)
