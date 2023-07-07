@@ -54,13 +54,14 @@
     <rosparam file="$(find final_project_v2)/param/costmap_common_params_$(arg model).yaml" command="load" ns="local_costmap" />
     <rosparam file="$(find final_project_v2)/param/local_costmap_params.yaml" command="load" />
     <rosparam file="$(find final_project_v2)/param/global_costmap_params.yaml" command="load" />
+    <!-- <rosparam file="$(find final_project_v2)/param/global_costmap_params_odom.yaml" command="load"/> -->
     <rosparam file="$(find final_project_v2)/param/my_move_base_params.yaml" command="load" />
     <remap from="cmd_vel" to="$(arg cmd_vel_topic)"/>
     <remap from="odom" to="$(arg odom_topic)"/>
   </node>
 
 <!-- waypoint ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
-  <env name="ROSCONSOLE_FORMAT" value="[${severity}][${thread}][${node}/${function}:${line}]: ${message}"/>
+  <!-- <env name="ROSCONSOLE_FORMAT" value="[${severity}][${thread}][${node}/${function}:${line}]: ${message}"/>
   <arg name="waypoints_topic" default="my_t3_waypoints"/>
 
   <node pkg='final_project_v2' type='custom_yj.py' name="custom_follow_waypoints"
@@ -69,5 +70,5 @@
       <param name="custom_waypoints_topic" value="$(arg waypoints_topic)"/>
   </node>
 
-  <node pkg='final_project_v2' type='waypoint_yj.py' name="moving_to_waypoints"/>
+  <node pkg='final_project_v2' type='waypoint_yj.py' name="moving_to_waypoints"/> -->
 </launch>

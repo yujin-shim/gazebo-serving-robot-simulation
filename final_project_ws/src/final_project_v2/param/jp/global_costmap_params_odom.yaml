@@ -1,0 +1,11 @@
+global_costmap:
+  global_frame: odom
+  robot_base_frame: base_footprint
+  update_frequency: 4.0 # 코스트맵 업데이트 주기를 설정합니다. 
+  publish_frequency: 3.0 # 코스트맵을 발행하는 주기를 설정합니다.
+  static_map: false 
+  rolling_window: true # 롤링 윈도우 모드는 로봇의 위치를 중심으로 한정된 영역만 코스트맵으로 유지하는 방식입니다.
+  
+  plugins:
+    - {name: laser,           type: "costmap_2d::ObstacleLayer"}
+    - {name: inflation,                 type: "costmap_2d::InflationLayer"}

@@ -1,0 +1,13 @@
+obstacle_range: 2.5 # 장애물 레이어에서 장애물로 간주되는 최대 거리를 설정합니다.
+raytrace_range: 3.5 # 장애물 레이어에서 레이저 빔을 투사하여 맵에 장애물로 표시할 최대 거리를 설정합니다.
+footprint: [[-0.15, -0.15], [-0.15, 0.15], [0.15, 0.15], [0.15, -0.15]] # 로봇의 충돌 가능 영역
+footprint_padding: 0.01 # 로봇의 충돌 가능 영역 주변에 패딩을 추가하여 더 큰 충돌 가능 영역을 설정합니다.
+inflation_radius: 0.1 # 로봇 주변에 생성되는 코스트맵 인플레이션 영역의 반지름을 설정합니다.
+cost_scaling_factor: 5.0 # 인플레이션 영역에서 코스트를 증가시키는 비율을 설정합니다.
+map_type: costmap
+transform_tolerance: 0.5 # 트랜스폼 메시지의 타임스탬프와 현재 시간 사이의 허용 오차 시간을 설정합니다.
+observation_sources: scan
+scan: {data_type: LaserScan, topic: scan, marking: true, clearing: true}
+
+
+
