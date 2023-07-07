@@ -43,3 +43,10 @@ roslaunch final_project_v2 start_follow_waypoints.launch
 
 #### ver2 - path planning improved
 [![Gazebo simulation](http://img.youtube.com/vi/dQZdvLGBVOU/sddefault.jpg)](https://youtu.be/dQZdvLGBVOU?t=0s) 
+
+---
+
+## Details
+### Local map parameters
+
+
