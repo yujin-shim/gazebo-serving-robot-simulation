@@ -1,8 +1,0 @@
-prefix=/home/yujin/final_project_ws/devel/.private/turtlebot3_description
-
-Name: turtlebot3_description
-Description: Description of turtlebot3_description
-Version: 0.1.6
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
