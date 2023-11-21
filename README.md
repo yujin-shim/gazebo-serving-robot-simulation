@@ -5,7 +5,8 @@
 
 * all the project was produced by programmers
 * team_mate : yujin, geonwoo, jungpin, chanyoung
-* 2023-07-03~2023-07-05
+* 프로젝트 준비기간: 2023-06-19-2023-06-30
+* 프로젝트 실행기간: 2023-07-03~2023-07-07
 * we are still working on the project to improve the navigation part
 
 # Project
